@@ -1,0 +1,12 @@
+Source: ros-kinetic-hsr-meshes
+Section: misc
+Priority: extra
+Maintainer: Koji Terada <koji_terada@mail.toyota.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: None
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hsr-meshes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: 3D mesh files for the Toyota HSR
